@@ -12,9 +12,12 @@ namespace Diamondpgm
         {
 
             {
-                for (int i = 15; i >= 0; i--)
+                int number = 10;
+                Console.Write("Enter number\n");
+                number = int.Parse(Console.ReadLine());
+                for (int i = number; i >= 0; i--)
                 {
-                    for (int n = 0; n < 15; n++)
+                    for (int n = 0; n < number; n++)
                     {
                         if (i > n)
                             Console.Write(" ");
